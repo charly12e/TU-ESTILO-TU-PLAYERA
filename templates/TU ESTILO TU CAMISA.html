@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../static/styles.css">
+    <script src="../static/aap.js"></script>
+    <title>INICIO</title>
+</head>
+<body>
+    <nav class="navbar">
+        <div class="logo">TU ESTILO TU CAMISA</div>
+        <ul class="nav-links">
+            <li><a href="¨#inicio¨">INICIO</a></li>
+            <li><a href="¨#servicios¨">SERVICIOS</a></li> 
+            <li><a href="¨#contacto¨">CONTACTO</a></li>
+            <li><a href="¨#acerca¨">ACERCA DE NOSOTROS</a></li>                                                                       
+        </ul>
+        <button class="burger">
+            <span></span>
+            <span></span>
+            <span></span>
+        </button>
+    </nav>
+
+    <header id="inicio" class="hero-section">
+        <h1>Bienvenido a Nuestra Pagina Web</h1>
+        <p>descubre nuestro producto</p>
+        <a href="¨servicio¨" class="btn-primary">Descubrir mas</a>
+    </header>
+
+    <main>
+        <section id="servicios" class="cards-container">
+            <h2>Nuestro servicio</h2>
+            <div class="cards">
+                <div class="card">
+                    <h3>Playera para gym</h3>
+                    <img src="c:\Users\PC\Downloads\D_NQ_NP_2X_645372-MLM76335901413_052024-T-playera-calaca-chida-gym-meme-divertido-estoy-en-volumen.webp" alt="playeras">
+                    <p>playera en volumen</p>
+                </div>
+                <di class="card">
+                     <h3>playera para votar</h3>
+                     <img src="c:\Users\PC\Downloads\il_fullxfull.6319817251_ngnk.avif" alt="Descripción de la imagen">
+                     <p>la mejor playera par ir a votar</p>
+                </di>
+                <div class="card">
+                    <h3>playera para competir</h3>
+                    <img src="c:\Users\PC\Downloads\a1137119-5de9-41d6-8712-679298d00fe8.4c4d51520fad0c0a302afefc20e622da.webp" alt="Descripción de la imagen">
+                    <p>la mejor playera para ir a competir</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="contacto" class="contact-section">
+            <h2>contacto</h2>
+            <form action="/send_email" id="contact-form" method="POST">
+                <input type="text" name="nombre" placeholder="Nombre" requerid=""></form>
+                <imput type="email" name="correo" placeholder="correo"></form>
+                <textarea name="mensaje" id="" placeholder="Mensaje" requerid=""></textarea>
+                 <button type="submit">Enviar</button>
+            </form>
+                   </section>
+
+       <div id="flash-menssages" class="flash-menssages"></div>
+       
+       <section id="acerca" class="about-section">
+        <h2>Acerca de nosotros</h2>
+        <p>somos un grupo de estudiantes que brindan las mejores playeras para que los jovenes las usen en esos momentos importantes para ser diferentes a los demas  </p>
+       
+    </section>
+
+</main>
+<footer>
+    <p>&copy; 2025 Todos los derechos reservados</p>
+</footer>
+</body>
+</html>
